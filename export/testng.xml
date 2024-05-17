@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="todos Application Automation Test Suite">
+  <test name="todos Testcases">
+    <!--<groups>
+		<run>
+			<include name="runthis"/>
+		</run>
+	</groups>-->
+	<classes>
+      	<class name="Test.todosHomePageTest">
+	      	<methods>
+				  <include name="todoshomePageTitleTest"/>
+		          <include name="todoshomePageHeaderTest"/>
+		          <include name="todoshomePageAddNewTaskTest"/>
+		          <include name="todoshomePageEditTaskTest"/>
+		          <include name="todoshomePageMarkOneTaskCompletedTest"/>
+		          <include name="todoshomePageViewActiveTaskTest"/>
+		          <include name="todoshomePageMarkAllTaskCompletedTest"/>
+		          <include name="todoshomePageDeleteTaskTest"/>
+		          <include name="todoshomePageDeleteCompletedTaskTest"/>
+	        </methods>
+        </class>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
